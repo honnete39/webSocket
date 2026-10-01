@@ -1,7 +1,6 @@
 const WebSocket = require('ws');
 const wss = new WebSocket.Server({ port: 8080 });
 
-console.log("WebSocket en écoute sur ws://localhost:8080");
 
 // userId => ws
 const clients = new Map();
